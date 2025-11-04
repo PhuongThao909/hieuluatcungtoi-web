@@ -1,0 +1,83 @@
+/* Tổng thể */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f9; /* nền sáng kiểu hành chính */
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background-image: url("https://images.unsplash.com/photo-1605721911519-3dfeb3be25e4?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  border-bottom: 5px solid #0a4b78; /* viền xanh đậm kiểu pháp luật */
+}
+
+/* Tiêu đề */
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+  color :red;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color:red;
+}
+
+/* MAIN */
+main {
+  padding: 40px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+h2 {
+  color:red ;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 280px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0a4b78; /* màu chủ đạo xanh pháp luật */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c5d91;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0a4b78;
+  color: white;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
