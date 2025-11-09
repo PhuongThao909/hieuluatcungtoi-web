@@ -45,15 +45,15 @@ header h1 {
   color :red;
 }
 h2,h3{
-text-decoration:underline;}
+text-decoration:underline;
+text-align: left;
+color:red;}
 
 
 	p {
   margin-bottom: 15px;                        /* Khoảng cách giữa các đoạn */
-  text-align: justify;                        /* Căn đều hai bên (đẹp hơn khi đọc) */
+  text-align: left;                        /* Căn đều hai bên (đẹp hơn khi đọc) */
 
-}h2 {
-  color:red ;
 }
 
 .search-box {
@@ -90,4 +90,5 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
 
